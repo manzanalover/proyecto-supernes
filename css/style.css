@@ -1,4 +1,4 @@
-.all{
+.all {
     height: 1000px;
     width: 2000px;
     background-color: aquamarine;
@@ -23,10 +23,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.grey-base{
+.grey-base {
     height: 340px;
     width: 290px;
     background-color: grey;
@@ -34,17 +34,17 @@
     border-style: groove;
 }
 
-.insert{
+.insert {
     height: 240px;
     width: 290px;
     background-color: azure;
     border-radius: 5%;
     display: flex;
     justify-content: space-around;
-    align-items: center ;
+    align-items: center;
 }
 
-.entrada{
+.entrada {
     height: 40px;
     width: 220px;
     background-color: tomato;
@@ -54,22 +54,61 @@
     justify-content: space-around;
 }
 
-.barra-1{
+.barra-1 {
     height: 30px;
     width: 5px;
     background-color: black;
     border-radius: 20%;
 }
 
-.barra-2{
+.barra-2 {
     height: 30px;
     width: 5px;
     background-color: black;
     border-radius: 20%;
 }
-.base-buttons{
+
+.base-buttons {
     height: 99px;
     width: 290px;
     background-color: yellow;
     border-radius: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-content: unset
+}
+
+.back-button-left {
+    height: 55px;
+    width: 50px;
+    background-color: rgb(89, 84, 84);
+    border-radius: 10%;
+    border: 5px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-left {
+    height: 50px;
+    width: 45px;
+    background-color: grey;
+    border-radius: 5%;
+}
+
+.back-button-center {
+    height: 55px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 10%;
+    border: 5px grey solid;
+    border-style: inset;
+}
+
+.back-button-right {
+    height: 55px;
+    width: 50px;
+    background-color: chocolate;
+    border-radius: 10%;
+    border: 5px white solid;
 }
