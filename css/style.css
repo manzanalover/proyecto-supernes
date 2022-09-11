@@ -1,0 +1,35 @@
+.all{
+    height: 1000px;
+    width: 2000px;
+    background-color: aquamarine;
+}
+
+.base1 {
+    height: 440px;
+    width: 380px;
+    background-color: gainsboro;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    height: 420px;
+    width: 360px;
+    background-color: gainsboro;
+    border-radius: 5%;
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grey-base{
+    height: 340px;
+    width: 290px;
+    background-color: grey;
+    border-radius: 5%;
+    border-style: groove;
+}
