@@ -50,10 +50,23 @@
     background-color: tomato;
     border-radius: 2px 2px 10px 10px;
     border-style: inset;
-   
-    
+    display: flex;
+    justify-content: space-around;
 }
 
+.barra-1{
+    height: 30px;
+    width: 5px;
+    background-color: black;
+    border-radius: 20%;
+}
+
+.barra-2{
+    height: 30px;
+    width: 5px;
+    background-color: black;
+    border-radius: 20%;
+}
 .base-buttons{
     height: 99px;
     width: 290px;
